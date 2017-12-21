@@ -1,0 +1,1 @@
+InstallScript := func(partFrame)	begin	RegAppClasses ( kAppSymbol, ['routeBinary] );	partFrame.removeFrame :=		(partFrame.theForm):NewtInstallScript(partFrame.theForm);	end;RemoveScript := func(partFrame)	begin	UnregAppClasses ( kAppSymbol );	(partFrame.removeFrame):NewtRemoveScript(partFrame.removeFrame);	end;

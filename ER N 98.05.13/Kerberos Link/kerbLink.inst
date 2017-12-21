@@ -1,0 +1,1 @@
+InstallScript := func ( partFrame, removeFrame )	begin	local linkFrame := GetLayout ( "theLink" );	DefGlobalVar ( EnsureInternal ( 'EnRouteKerberos ), linkFrame );	end;RemoveScript := func ( removeFrame )	begin	UndefGlobalVar ( 'EnRouteKerberos );	end;

@@ -1,0 +1,1 @@
+DefConst ( 'k_UIDLSymFromAddress, func ( uName, host )	begin	local addrStr := uName & $@ & host;	if StrLen(addrStr) > 32 then		begin		end;	Intern ( addrStr );	end );
