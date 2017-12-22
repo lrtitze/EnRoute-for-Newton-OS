@@ -1,1 +1,0 @@
-/*************************************************************// LRT - 97/01/01 10:43 AMHQXDecode ( RefArg rcvr, RefArg srcDestObj, RefArg tempVBOObj, RefArg infoFrame )int result := call kHQXDecodeFunc with ( srcDestObj, tempVBOObj, infoFrame );*************************************************************/DefConst ( 'kHQXDecodeFunc, hqxFuncs.HQXDecode );
