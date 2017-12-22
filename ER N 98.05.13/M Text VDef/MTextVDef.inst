@@ -1,1 +1,0 @@
-DefConst ( 'k_infoVDef, GetLayout ( "N1InfoVDef" ) );InstallScript := func ( partFrame, removeFrame )	begin	RegisterViewDef ( k_infoVDef, EnsureInternal ( k_infoDDefSym ) );	// kERMailTxtView	end;RemoveScript := func ( removeFrame )	begin	UnregisterViewDef ( k_infoVDefSym, k_infoDDefSym );	end;

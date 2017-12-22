@@ -1,1 +1,0 @@
-constant isOwnerVDef    := true;constant isNIELinkSetup := not isOwnerVDef;DefConst ( 'k_infoDDefSym,	if isOwnerVDef then 'owner	else if isNIELinkSetup then 'linkSetup	);DefConst ( 'k_infoVDefSym,	if isOwnerVDef then '|iMailServers:EnRouteN1|	else if isNIELinkSetup then 'iMailInfo	);
