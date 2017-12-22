@@ -1,0 +1,1 @@
+constant kSoupName    := "routeBin:EnRoute";constant kSuperSymbol := '|binSample:EnRoute:LRT|;constant kDataSymbol  := 'EnRouteBinSampleData;

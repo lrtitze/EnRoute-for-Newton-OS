@@ -1,0 +1,1 @@
+OpenResFile( Home & "resources"); 	DefConst ( 'k_BinAppleFile, GetResource ( "bind", 1001, 'binary ) );CloseResFile();

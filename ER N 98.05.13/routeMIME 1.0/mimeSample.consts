@@ -1,0 +1,1 @@
+constant kSoupName    := "routeMIME:EnRoute";constant kSuperSymbol := '|MIMESample:LRT|;constant kDataSymbol  := 'EnRouteMimeSampleData;// "routeBin:EnRoute";// '|binSample:EnRoute:LRT|;// 'EnRouteBinSampleData;// 'routeBinary
